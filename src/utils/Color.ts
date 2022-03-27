@@ -1,0 +1,32 @@
+export const COLOR = {
+	white: '#ffffff',
+	black: '#000000',
+	purple: '#7743CE',
+	grey2: '#565555',
+	purple1: '#9F6AF7',
+	black1: '#232323',
+	black2: '#151515',
+	black3: '#1C1C1C',
+	white1: '#E5E5E5',
+	grey0: '#CDCDCD',
+	grey1: '#898989',
+	blue1: '#B9D2D2',
+	blue2: '#3d5875',
+	blue3: '#00e0ff',
+};
+
+export const RGB_GRADIENT_COMBO: Array<{ start: string; end: string }> = [
+	{ start: 'rgb(137, 137, 137)', end: 'rgb(0, 0, 0)' },
+	{ start: 'rgb(0, 0, 0)', end: 'rgb(30, 29, 29)' },
+	{ start: 'rgb(251, 176, 59)', end: 'rgb(212, 20, 90)' },
+	{ start: 'rgb(168, 224, 99)', end: 'rgb(86, 171, 47)' },
+	{ start: 'rgb(255, 226, 89)', end: 'rgb(255, 167, 81)' },
+	{ start: 'rgb(150, 255, 218)', end: 'rgb(80, 201, 195)' },
+	{ start: 'rgb(254, 144, 144)', end: 'rgb(255, 97, 210)' },
+	{ start: 'rgb(146, 239, 253)', end: 'rgb(78, 101, 255)' },
+	{ start: 'rgb(209, 251, 155)', end: 'rgb(50, 172, 109)' },
+	{ start: 'rgb(61, 61, 253)', end: 'rgb(182, 76, 233)' },
+	{ start: 'rgb(230, 230, 230)', end: 'rgb(84, 214, 247)' },
+	{ start: 'rgb(255, 117, 140)', end: 'rgb(255, 126, 179)' },
+	{ start: 'rgb(228, 239, 233)', end: 'rgb(147, 167, 207)' },
+];
