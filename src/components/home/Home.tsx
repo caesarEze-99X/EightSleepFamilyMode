@@ -4,7 +4,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import { RGB_GRADIENT_COMBO } from 'utils/Color';
 import style from 'stylesheet/home/Home';
 import Navbar from 'components/navbar/Navbar';
-import { View, FlatList } from 'react-native';
+import { View, FlatList, StatusBar } from 'react-native';
 import WelcomeHeader from './WelcomeHeader';
 import { RenderItemContent } from 'types/Other';
 import UserCard from './UserCard';
@@ -30,6 +30,7 @@ const Home: FC<{}> = () => {
 
 	return (
 		<View style={style.generalContainer}>
+			<StatusBar animated={true} barStyle={'light-content'} showHideTransition={'fade'} />
 			<LinearGradient
 				colors={[
 					RGB_GRADIENT_COMBO[CONSTANT.ZERO]?.start,

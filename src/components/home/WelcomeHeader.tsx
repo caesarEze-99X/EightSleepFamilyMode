@@ -46,7 +46,7 @@ const WelcomeHeader: FC<{}> = () => {
 	}, [timeOfTheDay]);
 
 	const animationSize = useMemo<NoFuncParamMemo<number>>(() => {
-		let animSize: number = CONSTANT.HUNDRED + CONSTANT.FIFTY;
+		let animSize: number = CONSTANT.HUNDRED;
 		if (timeOfTheDay === STRING.goodMorning) {
 			animSize = CONSTANT.HUNDRED;
 		}

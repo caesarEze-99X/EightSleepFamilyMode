@@ -36,10 +36,10 @@ const NavbarStyle = StyleSheet.create({
 	},
 	welcomeMsgTxt: {
 		fontFamily: FONT.NUNITO_BLACK,
-		fontSize: 26,
+		fontSize: 23,
 	},
 	name: {
-		fontSize: 20,
+		fontSize: 18,
 		marginTop: 3,
 		color: COLOR.grey0,
 		fontFamily: FONT.NUNITO_BOLD,
